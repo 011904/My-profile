@@ -1,0 +1,97 @@
+body{
+	color: black;
+	background: #CFCFCF;
+	text-align: center;
+	font-family: 'Lora', serif;
+	font-size: 24px;
+}
+h1,h2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+}
+.white-cards{
+	background: white;
+	padding:  50px;
+	margin: 100px 120px 20px 120px;
+	border-radius: 10px;
+}
+#link{
+	padding: 20px;
+}
+
+#head{
+ 	margin-left: 150px;
+ 	margin-right: 150px;
+ }
+
+h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+img{
+	border-radius: 10px;
+	width: 400px;
+}
+
+a{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+p{
+	color: black;
+	font-size: 18px;
+}
+
+.btn-ld{
+	background-color: #CFCFCF;
+	color: #000000;
+	padding: 10px 50px;
+	border-radius: 4px;
+}
+
+}
+.btn-ld:hover{
+	background-color: purple;
+	color: gray;
+}
+
+.link{
+	background: white;
+	padding: 8px;
+	margin: 18px;
+	border-radius: 27px;
+	list-style: none;
+}
+
+.link i:hover{
+	color: darkgrey;
+}
+
+.link i{
+	font-size: 45px;
+}
+.container{
+	width: 1200px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 800px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
